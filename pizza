@@ -1,0 +1,16 @@
+import pandas as pd 
+
+df = pd.read_csv("D:/users/acsilva/Downloads/pizza.csv")
+df
+
+df.plot(kind="scatter", x="diametro", y="preco");
+
+from sklearn import linear_model
+
+modelo = linear_model.LinearRegression()
+x = df[["diametro"]]
+y = df[["preco"]]
+
+modelo.fit(x, y)
+
+modelo.predict([[23]])[0][0]
