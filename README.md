@@ -8,6 +8,4 @@ Explorar conceitos fundamentais e criar modelos preditivos para diferentes tipos
 Classificação  
 Regressão  
 Agrupamento (Clustering)  
-Avaliação de modeloslos  
-
-
+Avaliação de modelos
